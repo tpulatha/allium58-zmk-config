@@ -20,7 +20,9 @@
                 <&macro_tap>,
                 <&kp U>,
                 <&macro_release>,
-                <&kp LEFT_ALT &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+                <&kp LEFT_ALT &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER>;
 
             label = "UMLAUT_A";
         };
@@ -39,11 +41,11 @@
 
             display-name = "Base";
             bindings = <
-&kp GRAVE      &kp N1  &kp N2  &kp N3            &kp N4        &kp N5                           &kp N6  &kp N7  &kp N8     &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB        &kp Q   &kp W   &kp F             &kp P         &kp G                            &kp J   &kp L   &kp U      &kp Y    &kp MINUS  &kp EQUAL
-&kp BACKSPACE  &kp A   &kp R   &kp S             &kp T         &kp D                            &kp H   &kp N   &kp E      &kp I    &kp O      &kp SQT
-&kp LSHFT      &kp Z   &kp X   &kp C             &kp V         &kp B     &kp LBKT     &kp RBKT  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH   &kp SEMICOLON
-                               &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &kp SPACE    &kp RET   &mo 1   &mo 2   &kp RGUI
+&kp GRAVE      &kp N1  &kp N2  &kp N3            &kp N4        &kp N5                           &kp N6  &kp N7  &kp N8      &kp N9   &kp N0     &kp BACKSPACE
+&kp TAB        &kp Q   &kp W   &kp F             &kp P         &kp G                            &kp J   &kp L   &kp U       &kp Y    &kp MINUS  &kp EQUAL
+&kp BACKSPACE  &kp A   &kp R   &kp S             &kp T         &kp D                            &kp H   &kp N   &kp E       &kp I    &kp O      &kp SQT
+&kp LSHFT      &kp Z   &kp X   &kp C             &kp V         &kp B     &kp LBKT     &kp RBKT  &kp K   &kp M   &kp COMMA   &kp DOT  &kp FSLH   &kp SEMICOLON
+                               &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &kp SPACE    &kp RET   &mo 1   &mo 2   &kp ESCAPE
             >;
         };
 
@@ -57,10 +59,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1       &kp F2       &kp F3          &kp F4        &kp F5     &kp F6                    &kp F7      &kp F8    &kp F9         &kp F10  &kp F11  &kp F12
-&umlaut_x A  &umlaut_x O  &umlaut_x U     &trans        &trans     &trans                    &trans      &trans    &trans         &trans   &trans   &trans
-&trans       &trans       &trans          &kp UP_ARROW  &trans     &trans                    &kp INSERT  &kp HOME  &kp PAGE_UP    &trans   &trans   &trans
-&trans       &trans       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans    &trans  &kp DEL     &kp END   &kp PAGE_DOWN  &trans   &trans   &trans
+&kp F1       &kp F2       &kp F3          &kp F4        &kp F5     &kp F6                    &kp F7      &kp F8    &kp F9         &kp F10  &kp F11      &kp F12
+&umlaut_x A  &umlaut_x O  &umlaut_x U     &trans        &trans     &trans                    &trans      &trans    &umlaut_x U    &trans   &trans       &trans
+&umlaut_x A  &trans       &trans          &kp UP_ARROW  &trans     &trans                    &kp INSERT  &kp HOME  &kp PAGE_UP    &trans   &umlaut_x O  &trans
+&trans       &trans       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans    &trans  &kp DEL     &kp END   &kp PAGE_DOWN  &trans   &trans       &trans
                                           &trans        &trans     &trans  &trans    &trans  &trans      &trans    &trans
             >;
         };
