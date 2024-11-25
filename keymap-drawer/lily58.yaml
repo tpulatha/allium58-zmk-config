@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
-  Base: [TAB, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, BACKSPACE, Q, W, F, P, G, J, L, U, Y, '-', '=', LEFT SHIFT, A, R, S, T, D, H, N, E, I,
-    O, '''', '`', Z, X, C, V, B, '[', ']', K, M, ',', ., /, ;, LEFT CONTROL, LEFT ALT, LGUI, SPACE, RET, Lower, setup, ESCAPE]
+  Base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, F, P, G, J, L, U, Y, '-', '=', LEFT SHIFT, A, R, S, T, D, H, N, E, I, O,
+    '''', '`', Z, X, C, V, B, '[', ']', K, M, ',', ., /, ;, LEFT CONTROL, LEFT ALT, LGUI, SPACE, RET, Lower, Setup, AC NEXT KEYBOARD LAYOUT SELECT]
   Lower:
   - F1
   - F2
@@ -56,12 +56,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  setup:
+  Setup:
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - AC DESKTOP SHOW ALL WINDOWS
