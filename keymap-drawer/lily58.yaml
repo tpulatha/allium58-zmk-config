@@ -18,7 +18,7 @@ layers:
   - W
   - F
   - P
-  - G
+  - B
   - J
   - L
   - U
@@ -30,8 +30,8 @@ layers:
   - {t: R, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: T, h: LEFT COMMAND}
-  - D
-  - H
+  - G
+  - M
   - {t: N, h: RIGHT COMMAND}
   - {t: E, h: RIGHT ALT}
   - {t: I, h: RIGHT CONTROL}
@@ -41,19 +41,19 @@ layers:
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - '['
   - ']'
   - K
-  - M
+  - H
   - ','
   - .
   - /
   - ;
   - LEFT CONTROL
   - LEFT ALT
-  - LGUI
+  - LEFT COMMAND
   - SPACE
   - RET
   - Lower
@@ -87,8 +87,8 @@ layers:
   - {t: ▽, type: trans}
   - '&umlaut_x A'
   - {t: ▽, type: trans}
+  - Alt+S
   - UP ARROW
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INSERT
   - HOME
@@ -98,10 +98,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN
-  - RIGHT
   - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
