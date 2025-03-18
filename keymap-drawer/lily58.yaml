@@ -1,7 +1,7 @@
-layout: {qmk_keyboard: lily58_rotated}
+layout: {zmk_keyboard: lily58}
 layers:
-  Base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, F, P, B, J, L, U, Y, '-', '=', LEFT SHIFT, A, R, S, T, G, M, N, E, I, O,
-    '''', '`', Z, X, C, D, V, '[', ']', K, H, ',', ., /, ;, LEFT CONTROL, LEFT ALT, LEFT COMMAND, SPACE, RET, Lower, Setup, AC NEXT KEYBOARD LAYOUT SELECT]
+  Base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, F, P, B, J, L, U, Y, ;, '-', '`', A, R, S, T, G, M, N, E, I, O, '''', LEFT
+      SHIFT, Z, X, C, D, V, '[', ']', K, H, ',', ., /, RIGHT SHIFT, LEFT CONTROL, LEFT ALT, LEFT COMMAND, SPACE, RET, Lower, Setup, AC NEXT KEYBOARD LAYOUT SELECT]
   Lower:
   - F1
   - F2
@@ -26,7 +26,7 @@ layers:
   - '&umlaut_x U'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - '&umlaut_x A'
   - {t: ▽, type: trans}
@@ -38,7 +38,7 @@ layers:
   - PAGE UP
   - {t: ▽, type: trans}
   - '&umlaut_x O'
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
