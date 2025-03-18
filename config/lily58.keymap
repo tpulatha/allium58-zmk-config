@@ -54,10 +54,10 @@
 
             display-name = "Base";
             bindings = <
-&kp ESCAPE      &kp N1  &kp N2  &kp N3            &kp N4        &kp N5                                   &kp N6  &kp N7  &kp N8                                &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB         &kp Q   &kp W   &kp F             &kp P         &kp B                                    &kp J   &kp L   &kp U                                 &kp Y    &kp MINUS  &kp EQUAL
-&kp LEFT_SHIFT  &kp A   &kp R   &kp S             &kp T         &kp G                                    &kp M   &kp N   &kp E                                 &kp I    &kp O      &kp SQT
-&kp GRAVE       &kp Z   &kp X   &kp C             &kp D         &kp V             &kp LBKT     &kp RBKT  &kp K   &kp H   &kp COMMA                             &kp DOT  &kp FSLH   &kp SEMICOLON
+&kp ESCAPE      &kp N1  &kp N2  &kp N3            &kp N4        &kp N5                                   &kp N6  &kp N7  &kp N8                                &kp N9   &kp N0         &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp F             &kp P         &kp B                                    &kp J   &kp L   &kp U                                 &kp Y    &kp SEMICOLON  &kp MINUS
+&kp GRAVE       &kp A   &kp R   &kp S             &kp T         &kp G                                    &kp M   &kp N   &kp E                                 &kp I    &kp O          &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C             &kp D         &kp V             &kp LBKT     &kp RBKT  &kp K   &kp H   &kp COMMA                             &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
                                 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE    &kp RET   &mo 1   &mo 2   &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
             >;
         };
@@ -73,8 +73,8 @@
             display-name = "Lower";
             bindings = <
 &kp F1  &kp F2       &kp F3  &kp F4          &kp F5          &kp F6                                    &kp F7      &kp F8    &kp F9         &kp F10  &kp F11      &kp F12
-&trans  &trans       &trans  &trans          &trans          &trans                                    &trans      &trans    &umlaut_x U    &trans   &trans       &trans
-&trans  &umlaut_x A  &trans  &kp LA(S)       &kp UP_ARROW    &trans                                    &kp INSERT  &kp HOME  &kp PAGE_UP    &trans   &umlaut_x O  &trans
+&trans  &trans       &trans  &trans          &trans          &trans                                    &trans      &trans    &umlaut_x U    &trans   &trans       &kp EQUAL
+&trans  &umlaut_x A  &trans  &kp LA(S)       &kp UP_ARROW    &trans                                    &kp INSERT  &kp HOME  &kp PAGE_UP    &trans   &umlaut_x O  &kp BACKSLASH
 &trans  &trans       &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &trans  &kp DEL     &kp END   &kp PAGE_DOWN  &trans   &trans       &trans
                              &trans          &trans          &trans           &kp BACKSPACE    &trans  &trans      &trans    &trans
             >;
@@ -84,8 +84,8 @@
             bindings = <
 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans        &trans        &trans                          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
 &trans                &trans                &trans                             &trans        &trans        &trans                          &trans          &trans            &trans       &trans      &trans             &trans
-&trans                &trans                &trans                             &trans        &trans        &out OUT_TOG                    &trans          &trans            &trans       &trans      &trans             &trans
-&bt BT_CLR            &bt BT_SEL 0          &bt BT_SEL 1                       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans  &trans          &trans            &trans       &trans      &trans             &trans
+&bt BT_CLR            &trans                &trans                             &trans        &trans        &out OUT_TOG                    &trans          &trans            &trans       &trans      &trans             &trans
+&none                 &bt BT_SEL 0          &bt BT_SEL 1                       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans  &trans          &trans            &trans       &trans      &trans             &trans
                                                                                &sys_reset    &bootloader   &trans        &trans    &trans  &trans          &sys_reset        &bootloader
             >;
 
