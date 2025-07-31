@@ -77,7 +77,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,9 +88,9 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
