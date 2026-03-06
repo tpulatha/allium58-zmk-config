@@ -34,7 +34,7 @@ layers:
   - UP ARROW
   - {t: ▽, type: trans}
   - INSERT
-  - HOME
+  - DEL
   - PAGE UP
   - {t: ▽, type: trans}
   - '&umlaut_x O'
@@ -47,7 +47,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
+  - HOME
   - END
   - PAGE DOWN
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - MUTE
   - VOLUME DOWN
   - VOLUME UP
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -111,12 +111,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&sys_reset'
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&sys_reset', type: held}
-  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
