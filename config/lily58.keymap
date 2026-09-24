@@ -11,20 +11,40 @@
 
 / {
     macros {
-        umlaut_x: umlaut_x {
+        umlaut_lc: umlaut_lc {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_ALT>,
+                <&kp LALT>,
                 <&macro_tap>,
                 <&kp U>,
                 <&macro_release>,
-                <&kp LEFT_ALT &macro_param_1to1>,
+                <&kp LALT>,
+                <&macro_param_1to1>,
                 <&macro_tap>,
                 <&kp MACRO_PLACEHOLDER>;
+            label = "UMLAUT_LC";
+        };
 
-            label = "UMLAUT_X";
+        umlaut_uc: umlaut_uc {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LALT>,
+                <&macro_param_1to1>,
+                <&macro_tap>,
+                <&kp LS(MACRO_PLACEHOLDER)>;
+            label = "UMLAUT_UC";
         };
     };
 
@@ -33,11 +53,34 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_SHIFT";
             bindings = <&kp>, <&kp>;
-
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
             quick-tap-ms = <0>;
+        };
+
+        uml_a: uml_a {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&umlaut_lc A>, <&umlaut_uc A>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <0>;
+        };
+
+        uml_o: uml_o {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&umlaut_lc O>, <&umlaut_uc O>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <0>;
+        };
+
+        uml_u: uml_u {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&umlaut_lc U>, <&umlaut_uc U>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <0>;
         };
     };
 
